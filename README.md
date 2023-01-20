@@ -9,6 +9,7 @@
 **In-Class Assignments**
 
 -ICA1
+[link](https://docs.google.com/document/d/1VB_eqLuwVdaujKZGRkdL4vsw-Nz9pakmALGjccE1lp0/edit?usp=sharing)
 -ICA2
 -ICA3
 -ICA4
@@ -27,6 +28,7 @@
 **Weekly Assignments**
 
 -WA1
+[link](https://jaro6332.github.io/wa/wa1.html)
 -WA2
 -WA3
 -WA4
