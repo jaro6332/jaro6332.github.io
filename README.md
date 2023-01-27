@@ -28,21 +28,21 @@
 
 **Weekly Assignments**
 
--WA1
+- WA1
 [link](https://jaro6332.github.io/wa/wa1.html)
--WA2
+- WA2
 [link](http://jaro6332.github.io/wa/wa2.html)
--WA3
--WA4
--WA5
--WA6
--WA7
--WA8
--WA9
--WA10
--WA11
--WA12
--WA13
--WA14
--WA15
+- WA3
+- WA4
+- WA5
+- WA6
+- WA7
+- WA8
+- WA9
+- WA10
+- WA11
+- WA12
+- WA13
+- WA14
+- WA15
 
