@@ -13,9 +13,10 @@
 + ICA2
 [link](https://docs.google.com/document/d/14iRgo6KXKSa0eSnbcZ2VC96pv6R9u-Qvh910QJ8Io3o/edit?usp=share_link)
 + ICA3
-[link](http://127.0.0.1:5500/ica/ica3a.html)
-[link](http://127.0.0.1:5500/ica/ica3-part2/ica3b.html)
+[link](https://jaro6332.github.io/ica/ica3a.html)
+[link](https://jaro6332.github.io/ica3-part2/ica3b.html)
 + ICA4
+[link](https://jaro6332.github.io/ica/ica4.html)
 + ICA5
 + ICA6
 + ICA7
