@@ -1,0 +1,9 @@
+.pic img{
+    position: relative;
+}
+
+.pic .overlay{
+    position: absolute;
+    font-weight: bold;
+    text-align: right;
+}
