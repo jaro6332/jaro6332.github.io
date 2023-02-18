@@ -1,9 +1,14 @@
 .pic img{
+    width: 100%;
     position: relative;
 }
 
 .pic .overlay{
+    color: antiquewhite;
     position: absolute;
+    top: 80px;
+    right: 15px;
     font-weight: bold;
     text-align: right;
+    font-size: 30px;
 }
