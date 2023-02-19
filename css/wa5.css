@@ -3,12 +3,14 @@
     position: relative;
 }
 
-.pic .overlay{
-    color: antiquewhite;
+.overlay{
+    position: absolute;
+    top: 800px;
+    right: 15px;
+}
+
+.overlay2{
     position: absolute;
     top: 80px;
     right: 15px;
-    font-weight: bold;
-    text-align: right;
-    font-size: 30px;
 }
