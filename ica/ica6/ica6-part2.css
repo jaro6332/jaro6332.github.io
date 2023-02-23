@@ -1,0 +1,77 @@
+body{
+    background-color: olive;
+}
+
+
+#flex-parent{
+    display:flex;
+    background-color: orangered;
+}
+#flex-parent p{
+    padding:5vw;
+}
+
+
+#grid-parent{
+    display:grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(4,5vw);
+    column-gap: 3vw;
+    row-gap: 3vw;
+    align-content: center;
+}
+
+#grid-parent h1{
+    background-color: grey;
+    padding:3vw 5vh;
+    margin:5vw;
+    position: relative;
+}
+
+#flex-child1{
+    display: flex;
+    order: 2;
+}
+
+#flex-child2{
+    order: 3;
+}
+
+#flex-child3{
+    order: 1;
+}
+
+#flex-child4{
+    order: 0;
+}
+
+#no0{
+    width: 2vw;
+}
+#no1{
+    width: 2vw;
+}
+#no2{
+    width: 2vw;
+}
+#no3{
+    width: 2vw;
+}
+#no4{
+    width: 2vw;
+}
+#no5{
+    width: 2vw;
+}
+#no6{
+    width: 2vw;
+}
+#no7{
+    width: 2vw;
+}
+#no8{
+    width: 2vw;
+}
+#no9{
+    width: 2vw;
+}
