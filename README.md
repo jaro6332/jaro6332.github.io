@@ -21,6 +21,7 @@
 + ICA5
 [link](https://jaro6332.github.io/ica/ica5.html)
 + ICA6
+[link](https://jaro6332.github.io/ica/ica6/ica6-part1.html)
 + ICA7
 + ICA8
 + ICA9
