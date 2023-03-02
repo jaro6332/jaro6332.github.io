@@ -47,6 +47,7 @@
 - WA6
 [link](http://jaro6332.github.io/wa/wa6/index.html)
 - WA7
+[link](http://jaro6332.github.io/wa/wa7.html)
 - WA8
 - WA9
 - WA10
