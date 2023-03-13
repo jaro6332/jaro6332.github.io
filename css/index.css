@@ -1,6 +1,27 @@
+@media screen and(min-width: 500px){
+
+  .grid {
+      margin: 0 auto;
+      padding: 0 20px;
+      max-width: 980px;
+      display:grid;
+      grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and(max-width: 500px){
+  .grid {
+      margin: 0 auto;
+      padding: 0 20px;
+      max-width: 980px;
+      display:grid;
+      grid-template-columns: none;
+    }
+}
+
+
 body {
     background-color:blanchedalmond;
-    color:peru;
+    color:saddlebrown;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
   }
@@ -13,7 +34,7 @@ body {
   }
   
   .logo {
-    font-size: 680%;
+    font-size: 500%;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     padding: 50px 80px;
     margin: auto;
@@ -46,12 +67,12 @@ body {
 h1, h2{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  font-size: 75px;
+  font-size: 65px;
 }
 
 p{
     text-align: justify;
-    color:saddlebrown;
+    color:sienna;
     font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
 }
