@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button{
+            border: 20px solid darkmagenta;
+            border-radius: 20px;
+            background-color: magenta;
+            padding:25px 50px;
+            width: 250px;
+            font-size: 50px;
+        }
+        #square{
+            border: 20px solid darkblue;
+            border-radius: 10px;
+            background-color: transparent;
+            padding:50px 50px;
+            width: 100px;
+        }
+        #circle{
+            border-radius: 100px;
+            background-color: lightcoral;
+            padding:25px 50px;
+            width: 100px;
+            font-size: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="button">
+        <p>
+            Click me!
+        </p>
+
+    </div>
+<br>
+    <div class="form">
+        <label for="guessField">Enter a guess:</label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+
+    </div>
+<br>
+    <div id="square">
+        <p>
+            Click to fill the pool
+        </p>
+    </div>
+<br>
+    <div id="circle">
+        <p>
+            Hover to hide me
+        </p>
+    </div>        
+    <script>
+
+        console.log("Hello, World!");
+        let btn = document.querySelector("#button");
+        //console.log(btn);
+
+        function changeBtn(){
+            //console.log("This worked");
+            btn.textContent="BUTTON CLICKED";
+            btn.style.backgroundColor="darkmagenta";
+            btn.style.border="2px solid magenta";
+            btn.style.color="white";
+            
+        }
+        btn.addEventListener('click', changeBtn);
+
+        function checkGuess(){
+            alert('I am a paceholder');
+            //alert(userGuess.value)
+            let value=userGuess.value*2;
+            //alert(value);
+        }
+        let guessBtn=document.querySelector(".guessSubmit");
+        let userGuess=document.querySelector(".guessField");
+        guessBtn.addEventListener('click', checkGuess);
+
+        let cir=document.querySelector("#square");
+        function fill(){
+            cir.textContent="~~~~~~~~~~~~~";
+            cir.style.backgroundColor="aqua";
+
+        }
+        cir.addEventListener('click', fill)
+
+
+        let hide=document.querySelector("#circle");
+        function hov(){
+            hide.style.backgroundColor="black";
+        }
+        hide.addEventListener('mouseover', hov)
+
+
+
+    </script>
+</body>
+</html>

@@ -5,6 +5,7 @@
 - HTML
 [link](https://jaro6332.github.io/html-midterm/page5.html)
 - CSS
+[link](https://jaro6332.github.io/index.html)
 - JS
 
 **In-Class Assignments**
@@ -24,7 +25,7 @@
 [link](https://jaro6332.github.io/ica/ica6/ica6-part1.html)
 + ICA7[link](https://jaro6332.github.io/ica/ica7/ica7.html)
 + ICA8
-+ ICA9
++ ICA9[link](https://jaro6332.github.io/ica/ica9.html)
 + ICA10
 + ICA11
 + ICA12
