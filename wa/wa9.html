@@ -91,9 +91,10 @@
             story.textContent = newStory;
             story.style.visibility = 'visible';
 
-            xItem=randomValueFromArray(insertx)
-            yItem=randomValueFromArray(inserty)
-            zItem=randomValueFromArray(insertz)
+            const xItem=randomValueFromArray(insertx)
+            const yItem=randomValueFromArray(inserty)
+            const zItem=randomValueFromArray(insertz)
+
             newStory=storyText.replaceAll(':insertx:',xItem)
             newStory=storyText.replaceAll(':inserty:',yItem)
             newStory=storyText.replaceAll(':insertz:',zItem)
