@@ -62,16 +62,21 @@
             return array[random];
         }
 
-        storyText="It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day."
+        /*storyText="It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day."
         insertx=["Willy the Goblin", "Big Daddy", "Father Christmas"]
         inserty=["the soup kitchen", "Disneyland the White House"]
-        insertz=["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away "]
+        insertz=["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away "]*/
+
+        storyText="It was 94 fahrenheit outside, so :insertx: went for a drive. When they got to :inserty:, they stared in shock for a few moments, then a statue :insertz:. Bob saw the whole thing, but was not surprised — :insertx: is a wizard and made it happen."
+        insertx=["Michelle", "Joel", "Santa"]
+        inserty=["Seattle", "Disneyland", "Denver"]
+        insertz=["began to glow", "grew hair all over", "turned into a toad "]
 
         randomize.addEventListener('click', result);
 
         function result() {
 
-            const newStory=storyText
+            newStory=storyText
             
             if(customName.value !== '') {
                 const name = customName.value;
