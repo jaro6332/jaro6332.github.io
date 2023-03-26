@@ -50,8 +50,8 @@
 - WA7
 [link](http://jaro6332.github.io/wa/wa7.html)
 - WA8
-- WA9
-- WA10
+- WA9[link](http://jaro6332.github.io/wa/wa9.html)
+- WA10[link](https://jaro6332.github.io/wa/wa10/index.html)
 - WA11
 - WA12
 - WA13

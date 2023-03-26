@@ -1,12 +1,13 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
   text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif
   
 }
 
 body {
   width: 640px;
   margin: 0 auto;
+  background-color: peru;
 }
 
 .full-img {
