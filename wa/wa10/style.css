@@ -1,13 +1,14 @@
 h1 {
   text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif
-  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: indianred;
 }
 
 body {
   width: 640px;
   margin: 0 auto;
   background-color: peru;
+  color: saddlebrown;
 }
 
 .full-img {
