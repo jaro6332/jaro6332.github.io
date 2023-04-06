@@ -27,7 +27,7 @@
 + ICA8
 + ICA9[link](https://jaro6332.github.io/ica/ica9.html)
 + ICA10
-+ ICA11
++ ICA11[link](https://jaro6332.github.io/ica/ica11.html)
 + ICA12
 + ICA13
 + ICA14
@@ -52,7 +52,7 @@
 - WA8
 - WA9[link](http://jaro6332.github.io/wa/wa9.html)
 - WA10[link](https://jaro6332.github.io/wa/wa10/index.html)
-- WA11
+- WA11[link](https://jaro6332.github.io/wa/wa11.html)
 - WA12
 - WA13
 - WA14
