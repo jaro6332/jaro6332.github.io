@@ -23,7 +23,7 @@ class Ball{
     constructor(x, y, velx, vely, color, size){
         this.x=x;
         this.y=y;
-        this.valx=velx;
+        this.velx=velx;
         this.vely=vely;
         this.color=color;
         this.size=size;
@@ -36,19 +36,19 @@ class Ball{
     }
     update(){
         if ((this.x + this.size) >= width) {
-            this.velX = -(this.velX);
+            this.velx = -(this.velx);
           }
         
           if ((this.x - this.size) <= 0) {
-            this.velX = -(this.velX);
+            this.velx = -(this.velx);
           }
         
           if ((this.y + this.size) >= height) {
-            this.velY = -(this.velY);
+            this.vely = -(this.vely);
           }
         
           if ((this.y - this.size) <= 0) {
-            this.velY = -(this.velY);
+            this.vely = -(this.vely);
           }
 
         this.x=this.x+this.velx;
