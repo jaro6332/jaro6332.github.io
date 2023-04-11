@@ -24,53 +24,54 @@
 
     </section>
 
-  </body>
-  <script>
-    const section = document.querySelector('section');
-
-    let para1 = document.createElement('p');
-    let para2 = document.createElement('p');
-    let motherInfo = 'The mother cats are called ';
-    let kittenInfo;
-    const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
-
-    fetch(requestURL)
-    .then(response => response.text())
-    .then(text => displayCatInfo(text))
-
-    function displayCatInfo(catString) {
-      let total = 0;
-      let male = 0;
-
-      // Add your code here
-
-      let info=JSON.parse(catString);
-
-      for(let i=0; i<info.length;i++){
-        if(i== info.length-1){
-            motherInfo+= ' and '+info[i].name+'.';
+    <script>
+      const section = document.querySelector('section');
+  
+      let para1 = document.createElement('p');
+      let para2 = document.createElement('p');
+      let motherInfo = 'The mother cats are called ';
+      let kittenInfo;
+      const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
+  
+      fetch(requestURL)
+      .then(response => response.text())
+      .then(text => displayCatInfo(text))
+  
+      function displayCatInfo(catString) {
+        let total = 0;
+        let male = 0;
+  
+        // Add your code here
+  
+        let info=JSON.parse(catString);
+  
+        for(let i=0; i<info.length;i++){
+          if(i== info.length-1){
+              motherInfo+= ' and '+info[i].name+'.';
+          }
+          else{
+              motherInfo+=info[i].name+' , '
+          }
+  
+          for(let j=0;j<info[i].kittens.length;){
+              total++;
+              if(info[i].kittens[j].gender=='m'){
+                  male++;
+              }
+          }
         }
-        else{
-            motherInfo+=info[i].name+' , '
-        }
-
-        for(let j=0;j<info[i].kittens.length;){
-            total++;
-            if(info[i].kittens[j].gender=='m'){
-                male++;
-            }
-        }
+        kittenInfo='There are '+total+' kittens in total, '+male+' males and '+(total-male)+' females.';
+  
+        // Don't edit the code below here!
+  
+        para1.textContent = motherInfo;
+        para2.textContent = kittenInfo;
       }
-      kittenInfo='There are '+total+' kittens in total, '+male+' males and '+(total-male)+' females.';
-
-      // Don't edit the code below here!
-
-      para1.textContent = motherInfo;
-      para2.textContent = kittenInfo;
-    }
-
-    section.appendChild(para1);
-    section.appendChild(para2);
-  </script>
+  
+      section.appendChild(para1);
+      section.appendChild(para2);
+    </script>
+  </body>
+  
 
 </html>
