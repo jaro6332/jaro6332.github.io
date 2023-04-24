@@ -1,4 +1,25 @@
 
+let buttons = document.querySelectorAll("input[type='button']");
+		buttons.forEach(button => {
+			let newButton = document.createElement("button");
+			newButton.innerHTML = button.value;
+			newButton.style.top = button.offsetTop + "px";
+			newButton.style.left = button.offsetLeft + "px";
+			
+			document.body.appendChild(newButton);
+			button.style.display = "none";
+		});
+
+		let floatingButtons = document.querySelectorAll("button");
+		floatingButtons.forEach(button => {
+			button.addEventListener("mouseover", () => {
+				button.style.animationPlayState = "paused";
+			});
+
+			button.addEventListener("mouseout", () => {
+				button.style.animationPlayState = "running";
+			});
+		});
 
 function check() {
     console.log('test');
@@ -50,20 +71,20 @@ const randomButton = document.querySelector('.random-button').addEventListener('
 const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
 
 
-/* const button = document.querySelector('.button');
-const output = document.querySelector('.output');
+const button = document.querySelector('.button');
+const outpu = document.querySelector('.output');
 let phone_content = document.querySelector('.phone');
 
 button.addEventListener('click', updateOutput);
 
 function updateOutput() {
-    output.textContent = phone_content.value;
+    outpu.textContent = phone_content.value;
     alert(phone_content.value);
 }
-*/
 
 
-var slider = document.getElementById("myRange");
+
+/*var slider = document.getElementById("myRange");
 var sliderSubmit = document.querySelector(".slider-submit-button").addEventListener('click', update);
 var sliderOutput = document.querySelector(".slider-output");
 
@@ -71,4 +92,4 @@ var sliderOutput = document.querySelector(".slider-output");
 //Update the current slider value (each time you drag the slider handle)
 function update() {
   sliderOutput.textContent = slider.value;
-}
+}*/

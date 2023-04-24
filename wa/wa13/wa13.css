@@ -1,0 +1,37 @@
+html{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color:brown;
+
+}
+p{
+    color: bisque;
+    font-size:xx-large;
+    text-align: center;
+    
+}
+input{
+    color:brown;
+    align-self: center;
+}
+button {
+    padding: 10px;
+    border: none;
+    background-color: bisque;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(900px, 900px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
