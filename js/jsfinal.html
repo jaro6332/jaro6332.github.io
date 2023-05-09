@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="jsfinal.css">-->
+    <title>JS Final</title>
+    <style>    
+        #game-board {
+        width: 1000px;
+        height: 600px;
+        background-color:palegreen;
+        margin: 0 auto;
+        position: relative;
+      }
+      p{
+        font-size: x-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top:2px;
+        left: 400px;
+        color: #fff;
+        
+      }
+
+      .paddle {
+        position: absolute;
+        width: 20px;
+        height: 90px;
+        background-color: #fff;
+      }
+
+      #left-paddle {
+        left: 0;
+        top: 115px;
+
+      }
+      #right-paddle {
+        right: 0;
+        top: 115px;
+      }
+
+      .ball {
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        position: absolute;
+        top: 145px;
+        left: 245px;
+      }
+
+      #player1-score,
+      #player2-score {
+        color: #fff;
+        font-size: 160px;
+        position: absolute;
+        top: 10px;
+      }
+      #player1-score {
+        left: 140px;
+      }
+
+      #player2-score {
+        right: 140px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+     }
+
+    </style>
+</head>
+<body>
+    <div id="game-board">
+        <p>Let's Play Pong!</p>
+        <div id="left-paddle" class="paddle"></div>
+        <div id="right-paddle" class="paddle"></div>
+        <div id="ball" class="ball"></div>
+        <div id="player1-score">0</div>
+        <div id="player2-score">0</div>
+        <button type="start-button">START</button>
+        <button type="stop-button">STOP</button>
+
+      </div>
+      <script src="jsfinal.js"></script>
+</body>
+</html>
