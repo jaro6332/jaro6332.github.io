@@ -7,7 +7,7 @@
 - CSS
 [link](https://jaro6332.github.io/index.html)
 - JS
-
+[link](https://jaro6332.github.io/js/jsfinal.html)
 **In-Class Assignments**
 
 + ICA1
@@ -26,7 +26,7 @@
 + ICA7[link](https://jaro6332.github.io/ica/ica7/ica7.html)
 + ICA8
 + ICA9[link](https://jaro6332.github.io/ica/ica9.html)
-+ ICA10
++ ICA10[link](https://jaro6332.github.io/ica/ica10/ica10.html)
 + ICA11[link](https://jaro6332.github.io/ica/ica11.html)
 + ICA12[link](https://jaro6332.github.io/ica/ica12/ica12.html)
 + ICA13
@@ -55,6 +55,6 @@
 - WA11[link](https://jaro6332.github.io/wa/wa11.html)
 - WA12[link](https://jaro6332.github.io/wa/wa12/wa12.html)
 - WA13[link](https://jaro6332.github.io/wa/wa13/wa13.html)
-- WA14
+- WA14[link](https://jaro6332.github.io/wa/wa14.html)
 - WA15
 
